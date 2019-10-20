@@ -1,9 +1,9 @@
 package dbconnection
 import(
 	"log"
-	_"github.com/go-sql-driver/mysql"
+	"github.com/go-sql-driver/mysql"
 	
-	"database/sql"
+	
 )
 var db *sql.DB
 func Connection()*sql.DB{
