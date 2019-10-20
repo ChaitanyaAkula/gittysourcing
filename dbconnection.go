@@ -8,7 +8,7 @@ import(
 var db *sql.DB
 func Connection()*sql.DB{
 
-	Db,err := sql.Open("mysql","admin:Ancons927@tcp(gittyus.crp5gpwzu2zf.us-east-2.rds.amazonaws.com:3306)/gittysourcing")
+	Db,err := sql.Open("mysql","gittysourcing:Ancons927@tcp(gittysourcing.crp5gpwzu2zf.us-east-2.rds.amazonaws.com:3306)/gittysourcing")
 	
 	if err!=nil{
 		log.Fatalln(err)
